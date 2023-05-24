@@ -1,8 +1,11 @@
 // Copyright 2021 NNTU-CS
 
+#include <iostream>
+
+using namespace std;
 int gcd(int a, int b) {
-    std::cout << "Enter value for a and b: " << endl;
-    std::cin >> a >> b;
+    cout << "Enter value for a and b: "<< endl;
+    cin >> a >> b;
 
 
     while (a != b) {
@@ -13,5 +16,5 @@ int gcd(int a, int b) {
             b = b-a;
         }
     }
-    std::cout << a;
+    cout << a;
 }
